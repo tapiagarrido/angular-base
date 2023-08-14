@@ -1,0 +1,15 @@
+<h3>Listado de Herores</h3>
+
+<div class="my-5">
+  <h4>Heroe borrado: <small class="text-danger"> Alguno</small></h4>
+  <h4>No se ha borrado ningún heroe</h4>
+</div>
+
+
+<button class="btn btn-danger fw-bold p-2 border shadow-lg">
+  Borrar ultimo Heroe
+</button>
+
+<ul *ngFor="let hero of heroNames" class="mt-2 list-group">
+  <li class="list-group-item">{{hero}}</li>
+</ul>

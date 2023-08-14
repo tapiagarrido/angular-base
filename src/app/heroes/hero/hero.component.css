@@ -1,0 +1,9 @@
+h1{
+  font-size: 25px;
+}
+
+dd{
+  font-size: 1rem;
+  font-weight: bold;
+  /*text-transform: capitalize;*/
+}
